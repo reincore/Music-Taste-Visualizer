@@ -27,7 +27,19 @@ Primary programming language for data processing and visualization.
 
 
 ## Getting Started
-TBA
+For running locally for the default username, navigate to the repo and src/ folder, and run main.py.
+Note that you will have to set the environment variable correctly. If you’re using a Unix-based system (like Linux or MacOS), you can set the environment variable in the terminal like this:
+```
+export LAST_FM_API_KEY=your_api_key
+```
+Replace your_api_key with your actual Last.fm API key. If you’re using Windows, the command is slightly different:
+```
+set LAST_FM_API_KEY=your_api_key
+```
+Again, replace your_api_key with your actual Last.fm API key. After setting the environment variable, try running main.py by 
+```
+python3 main.py
+```
 
 # Contributing
 We welcome contributions to the Music Taste Visualizer! Whether it's improving the code, proposing new features, or reporting bugs, we appreciate your input in making this tool more engaging and useful for everyone.
